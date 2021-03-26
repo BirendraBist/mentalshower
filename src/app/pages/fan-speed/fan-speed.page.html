@@ -1,0 +1,26 @@
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-grid>
+      <ion-row class="padding-top-50">
+        <ion-col>
+            <strong>What is wrong?</strong>
+        </ion-col>
+      </ion-row>
+      <ion-row class="padding-top-50">
+        <ion-col>
+          <ion-range color="danger" value="50">
+            <ion-label slot="start">too cold</ion-label>
+            <ion-label slot="end">too hot</ion-label>
+          </ion-range>
+        </ion-col>
+      </ion-row>
+      <ion-row class="padding-top-50">
+        <ion-col>
+          <ion-button href="is-this-better" expand="block">
+            Confirm
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

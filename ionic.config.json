@@ -1,0 +1,7 @@
+{
+  "name": "mentalshower",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
